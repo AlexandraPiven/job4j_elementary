@@ -62,7 +62,7 @@ class CounterTest {
     @Test
     void whenStartMinus2AndFinish12ThenSumByEven40() {
         int start = -2;
-        int finish = 14;
+        int finish = 12;
         int expected = 40;
         int output = Counter.sumByEven(start, finish);
         assertThat(output).isEqualTo(expected);
