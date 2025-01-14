@@ -60,10 +60,10 @@ class CounterTest {
     }
 
     @Test
-    void whenStartMinus2AndFinish14ThenSumByEven54() {
+    void whenStartMinus2AndFinish12ThenSumByEven40() {
         int start = -2;
         int finish = 14;
-        int expected = 54;
+        int expected = 40;
         int output = Counter.sumByEven(start, finish);
         assertThat(output).isEqualTo(expected);
 
